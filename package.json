@@ -1,6 +1,6 @@
 {
   "name": "playing-cards",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -8,8 +8,6 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.38",
-    "@types/react": "^18.2.14",
-    "@types/react-dom": "^18.2.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -22,11 +20,12 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_05268e2c48b38c8"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JessPergentino/playing-cards.git"
+    "url": "git+https://github.com/JessPergentino/playing-cards.git"
   },
   "publishConfig": {
     "@JessPergentino:registry": "https://npm.pkg.github.com"
@@ -51,18 +50,29 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@storybook/addon-essentials": "^7.1.1",
     "@storybook/addon-interactions": "^7.1.1",
     "@storybook/addon-links": "^7.1.1",
+    "@storybook/addon-storyshots": "^7.1.1",
     "@storybook/blocks": "^7.1.1",
     "@storybook/preset-create-react-app": "^7.0.26",
     "@storybook/react": "^7.1.1",
     "@storybook/react-webpack5": "^7.1.1",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/react": "^18.2.17",
+    "@types/react-dom": "^18.2.7",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^6.20.0",
     "eslint-plugin-storybook": "^0.6.13",
     "prop-types": "^15.8.1",
     "storybook": "^7.1.1",
     "webpack": "^5.88.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/JessPergentino/playing-cards/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/JessPergentino/playing-cards#readme",
+  "_id": "playing-cards@1.0.0"
 }

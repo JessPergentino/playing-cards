@@ -1,3 +1,7 @@
+# Storybook
+
+View all components in [Storybook](https://64c1cfc5efc425d5e88e71b9-yvkqfdamue.chromatic.com/?path=/docs/configure-your-project--docs).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

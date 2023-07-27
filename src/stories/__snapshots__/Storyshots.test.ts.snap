@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Example/Face Cards Hidder Card 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="front "
+    style={
+      Object {
+        "visibility": "hidden",
+      }
+    }
+  >
+    <div
+      className="index"
+    >
+      Q
+      <br />
+      ♣
+    </div>
+    <img
+      alt=""
+      className="face"
+      src="queen.gif"
+    />
+    <div
+      className="spotA1"
+    >
+      ♣
+    </div>
+    <div
+      className="spotC5"
+    >
+      ♣
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Example/Face Cards Jack Card Red 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="front red"
+    style={
+      Object {
+        "visibility": "visible",
+      }
+    }
+  >
+    <div
+      className="index"
+    >
+      J
+      <br />
+      ♥
+    </div>
+    <img
+      alt=""
+      className="face"
+      src="jack.gif"
+    />
+    <div
+      className="spotA1"
+    >
+      ♥
+    </div>
+    <div
+      className="spotC5"
+    >
+      ♥
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Example/Face Cards Queen Card 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="front "
+    style={
+      Object {
+        "visibility": "visible",
+      }
+    }
+  >
+    <div
+      className="index"
+    >
+      K
+      <br />
+      ♠
+    </div>
+    <img
+      alt=""
+      className="face"
+      src="king.gif"
+    />
+    <div
+      className="spotA1"
+    >
+      ♠
+    </div>
+    <div
+      className="spotC5"
+    >
+      ♠
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Example/Index Cards Ace Card 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="front "
+    style={
+      Object {
+        "visibility": "visible",
+      }
+    }
+  >
+    <div
+      className="index"
+    >
+      A
+      <br />
+      ♣
+    </div>
+    <div
+      className="ace"
+    >
+      ♣
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Example/Index Cards Hidder Card 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="front "
+    style={
+      Object {
+        "visibility": "hidden",
+      }
+    }
+  >
+    <div
+      className="index"
+    >
+      10
+      <br />
+      ♠
+    </div>
+    <div
+      className="spotA1"
+    >
+      ♠
+    </div>
+    <div
+      className="spotA2"
+    >
+      ♠
+    </div>
+    <div
+      className="spotA4"
+    >
+      ♠
+    </div>
+    <div
+      className="spotA5"
+    >
+      ♠
+    </div>
+    <div
+      className="spotB2"
+    >
+      ♠
+    </div>
+    <div
+      className="spotB4"
+    >
+      ♠
+    </div>
+    <div
+      className="spotC1"
+    >
+      ♠
+    </div>
+    <div
+      className="spotC2"
+    >
+      ♠
+    </div>
+    <div
+      className="spotC4"
+    >
+      ♠
+    </div>
+    <div
+      className="spotC5"
+    >
+      ♠
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Example/Index Cards Number Card Red 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="front red"
+    style={
+      Object {
+        "visibility": "visible",
+      }
+    }
+  >
+    <div
+      className="index"
+    >
+      5
+      <br />
+      ♥
+    </div>
+    <div
+      className="spotA1"
+    >
+      ♥
+    </div>
+    <div
+      className="spotA5"
+    >
+      ♥
+    </div>
+    <div
+      className="spotB3"
+    >
+      ♥
+    </div>
+    <div
+      className="spotC1"
+    >
+      ♥
+    </div>
+    <div
+      className="spotC5"
+    >
+      ♥
+    </div>
+  </div>
+</div>
+`;

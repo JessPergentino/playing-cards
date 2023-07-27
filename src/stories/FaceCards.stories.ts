@@ -28,18 +28,18 @@ export const JackCardRed: Story = {
   },
 };
 
-export const QueenCard: Story = {
+export const KingCard: Story = {
   args: {
-    face: "Q",
-    suit: CLUBS,
+    face: "K",
+    suit: SPADES,
     color: false,
   },
 };
 
 export const HidderCard: Story = {
   args: {
-    face: "K",
-    suit: SPADES,
+    face: "Q",
+    suit: CLUBS,
     color: false,
     hidden: true,
   },
