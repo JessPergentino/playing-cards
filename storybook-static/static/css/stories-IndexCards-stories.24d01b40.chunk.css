@@ -1,0 +1,138 @@
+/* CARDS */
+.card {
+  background-image: url(data:image/gif;base64,R0lGODlhDAAQAPcAAMAAAMABAcACAsADA8EEBMEGBsUUFMUWFsUXF8YYGMYZGcYaGsYbG8ccHMcdHcceHscfH8ggIMgjI848PM8/P9BAQNBCQtBERNFGRtFHR9JJSdJKStJLS9JMTNNNTdNPT9RTU956et+AgOCCguCEhOGIiOKKiuKLi+ORke23t+67u+68vO++vu+/v+/BwfDCwvDDw/DExPDFxfHGxvHHx/HIyPHJyfLMzPjj4/jl5fjm5vnn5/no6Pnp6fnq6vrr6/rs7Prt7fru7vvv7/36+v77+/78/P79/f7+/gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAADAAQAEAIkACLVABAsCDBCUQMWjByJINBgieMXCBIoQiKghiMmDBI4ggHABCCrBBgMECKIRIKOvjRQoWQCA8HsADygIEPGAQIuvjR4CEABTxm1NCBwKcBHDcAeDgiwmAIJCAKEpDBQ8GBHDYK+NxwBMkHnwAS7KDxwgeDhyOOdCCY4UgJggt6xMhZcEALmkc0gAVwwUhAAAA7);
+  border-color: #808080 #000000 #000000 #808080;
+  border-width: 1px;
+  border-style: solid;
+  color: #000000;
+  font-size: 20pt;
+  position: relative;
+  width: 3.75em;
+  height: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.front {
+  background-color: #ffffff;
+  color: #000000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* FACE */
+.face {
+  border: 1px solid #000000;
+  position: absolute;
+  left: 0.5em;
+  top: 0.45em;
+  width: 2.6em;
+  height: 4em;
+}
+
+/* COLORS */
+.red {
+  color: #ff0000;
+}
+
+/* ACE */
+.ace {
+  font-size: 300%;
+  position: absolute;
+  left: 0.325em;
+  top: 0.1em;
+}
+
+/* INDEX */
+.index {
+  font-size: 50%;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  left: 0.25em;
+  top: 0.25em;
+}
+
+/* SPOTS */
+.spotA1 {
+  position: absolute;
+  left: 0.6em;
+  top: 0.5em;
+}
+.spotA2 {
+  position: absolute;
+  left: 0.6em;
+  top: 1.5em;
+}
+.spotA3 {
+  position: absolute;
+  left: 0.6em;
+  top: 2em;
+}
+.spotA4 {
+  position: absolute;
+  left: 0.6em;
+  top: 2.5em;
+}
+.spotA5 {
+  position: absolute;
+  left: 0.6em;
+  top: 3.5em;
+}
+
+.spotB1 {
+  position: absolute;
+  left: 1.55em;
+  top: 0.5em;
+}
+.spotB2 {
+  position: absolute;
+  left: 1.55em;
+  top: 1em;
+}
+.spotB3 {
+  position: absolute;
+  left: 1.55em;
+  top: 2em;
+}
+.spotB4 {
+  position: absolute;
+  left: 1.55em;
+  top: 3em;
+}
+.spotB5 {
+  position: absolute;
+  left: 1.55em;
+  top: 3.5em;
+}
+
+.spotC1 {
+  position: absolute;
+  left: 2.5em;
+  top: 0.5em;
+}
+.spotC2 {
+  position: absolute;
+  left: 2.5em;
+  top: 1.5em;
+}
+.spotC3 {
+  position: absolute;
+  left: 2.5em;
+  top: 2em;
+}
+.spotC4 {
+  position: absolute;
+  left: 2.5em;
+  top: 2.5em;
+}
+.spotC5 {
+  position: absolute;
+  left: 2.5em;
+  top: 3.5em;
+}
+
+
+/*# sourceMappingURL=stories-IndexCards-stories.24d01b40.chunk.css.map*/
